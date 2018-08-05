@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput undecimum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c11">
+        <head xml:id="phah-c11-Hd1e110">Angelica Hierarchia, Caput undecimum</head>
+        
+        <!--Quare omnes celestes substantie communiter virtutes celestes vocantur.-->
+        
+        <p xml:id="phah-c11-d1e115">Titulus huius capituli est quare omnes celestes substantie communiter virtutes celestes vocantur. Quia videlicet quod omnes angeli communiter a Deo habent, non tam est ex dono divine bonitatis quam ex merito proprie virtutis, nec solum habent virtutem in affectu vel habitu sed etiam in actu. Unde quicumque sunt, virtus sunt. Habent enim in substantia incorruptibilitatem. In affectu semper mobilitatem et in actu perfectibilitatem. Quorsus ergo te veritas in angelis? Tutamentum tibi in eis est, quia totum quod in ipsis est, virtuosum est.</p>
+        
+        <!--Hiis autem determinatis, illud dignum attendere, propter quam causam universas simul angelicas substantias virtutes celestes vocare consuevimus. Non enim est dicere, sicut in angelis, quod omnium est ultimus ornatus sanctarum virtutum. Et ea quidem, que est ultimorum, sanctos decente illuminatione superpositarum substantiarum ornatus participant; ultimi autem primorum nunquam. Huius gratia et celestes virtutes quidem nominantur. Seraphin autem et throni et dominationes nunquam. Non participabiles enim ultimi supremorum totalium proprietatum. Etenim angeli et ante angelos archangeli et principatus et potestates, et hii post virtutes a theologia ordinati et communiter multotiens a nobis simul cum aliis substantiis celestes virtutes appellantur. Dicimus autem quod communiter in omnibus usi celestium nominatione virtutum, non confusionem quandam uniuscuiusque ornatus proprietatum inducimus. Sed quoniam in tria divise sunt ea que secundum ipsas est supermundana ratione omnes divine mentes in substantiam et virtutem et operationem, quando universas ut quasdam ipsarum sine observatione celestes substantias aut celestes virtutes vocamus, ipsas per periphrasim, de quibus est sermo, significare nos est arbitrandum, ex ea que secundum unamquamque ipsarum est substantia aut virtute. Neque enim superpositam proprietatem facile est iam bene nobis discretarum sanctarum virtutum et subiectis totaliter adiungere substantiis, in conversione inconfusi angelicorum ornatuum ordinationis principatus. Etenim secundum multotiens a nobis recte assignatam rationem, supereminentes quidem ornatus habundanter habent et subiectorum sanctas proprietates. Ultimi autem dignorum superpositas totalitates non habent, particulariter ad ipsas prius apparentibus illuminationibus, per primas iuxta proportionem suam delatis.-->
+        
+        <p xml:id="phah-c11-d1e120">Hiis autem determinatis, etc. usque in finem capituli talis est sensus: Querendum est deinceps propter quam causam omnes angelicas substantias cuiuscumque ordinis consuevimus vocare celestes virtutes. Nec est hic reddenda ratio quam supra diximus: Omnes videlicet celestes mentes recte vocari angelos, cum infimus omnium celestium ordinum sit ordo angelorum, et superiores habent inferiorum virtutes et illuminationes, unde denominantur. Siquidem ordo virtutum superior est quattuor aliis ordinibus. Unde propter hanc rationem non possunt illi quattuor inferiores communicare nomen virtutum, quia non eadem plenitudine virtutes et illuminationes earum participant. Unde predicte questioni sic respondemus ad ostendendum quod nulla confusio inducitur proprietatibus aut distinctivis nominibus angelicorum ordinum per hoc quod omnes celestes animi vocantur virtutes. Et quelibet mens celestium secundum supermundanam celestium rationem habet hec tria, scilicet substantiam, virtutem et operationem. Quando ergo aut aliquas mentes celestes aut celestes virtutes illas de quibus loquimur, sic vocamus quasi per expressionem suarum spiritualium substantiarum aut virtutum, a quibus easdem sic denominamus. Hoc enim faciendo, non intendimus subiectis ordinibus attribuere proprietatem virtutum in ea plenitudine in qua ordo virtutum eam possidet. Quod esset convertere retrorsum et confundere gradus ordinum angelicorum. Ut enim sepe diximus et recte, superiores ordines habent sanctas proprietates subiectorum habundantius quam ipsi subiecti. Inferiores vero non in ea plenitudine habent scientias et virtutes, in qua et superiores. Sed particulariter participant secundum singulorum capacitatem illuminationibus ad illos delatis per superiores.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

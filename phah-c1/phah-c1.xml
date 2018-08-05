@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput primum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c1">
+      	<head xml:id="phah-c1-Hd1e110">Angelica Hierarchia, Caput primum</head>
+      	
+      	
+      	
+      	<!-- text of dionysius being commented on: Quod omnis divina illuminatio secundum bonitatem varie ad provisa procedens manet simpla et non solum hoc sed etiam unum facit illuminata. -->
+      	
+      	<p xml:id="phah-c1-d1e115">Titulus 
+      	  <ref target="http://scta.info/resource/pdah-c1">huius capituli</ref>
+      	  <bibl><ref target="http://scta.info/resource/pdah-c1">Dionysius, Angelical Hiera., c. 1</ref></bibl>
+      	  est quod omnis divina illuminatio secundum bonitatem varie ad provisa procedens manet simpla et non solum hoc sed et unum facit illuminata. Divina autem illuminatio hic appellatur omnis divine cognitionis a Deo emanatio. Que licet motu bonitatis Dei diversimode procedat ad communicandum se creaturis, nichilominus tamen aliis facta per communionem multiplex, in se tamen manet simplex, a se non divisa. Et non tantum hoc facit, ut aliis communicata in se maneat simplex, set etiam ea que ab ipsa illimunantur et illa illi per ipsam et sibi ipsis per illam invicem uniuntur. Divina igitur illuminatio ad nos veniens et simplex est a se non recedendo et efficax est illuminatio a se sibi et invicem uniendo.</p>
+      	
+      	<!-- text of dionysius: Omne datum bonum et omne donum perfectum desursum est descendens a patre luminum. Set et cunctus a patre moto luminis apparitionis processus ad nos bonitatis dono veniens, rursus sicut unum faciens virtus suscitative nos adimplet et convenit ad congregantis patris unitatem et deificam simplicitatem. Etenim ex ipso omnia et ad ipsum, sicut sanctus dicit sermo.-->
+      	
+      	<p xml:id="phah-c1-d1e120">
+      	  <cit>
+      	    <ref target="http://scta.info/resource/pdah-c1-d1e132"><quote>Omne datum bonum</quote>, etc. usque ad illud: <quote>Igitur Ihesum</quote>, etc.</ref>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e132">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit>,
+      	  talis est sensus: Omnis gratia gratis data, aut naturalis sive in suo genere sit bona aut melior aut optima, data est homini ad ipsum bonificandum. Et omnis gratia gratum faciens sive gratuita data est homini ad ipsum perficiendum. Et omne istud bonum non a nobis est nec ex nobis, set de celis proveniens nobis a patre eterno, qui lumen generat simplicissimum et sibi coeternum in essentia, idest filium, et per ipsum omnia lumina sive spiritalia sint sive materialia. Lumina ergo descendentia a patre sunt omnia bona, ab ipso eternaliter vel temporaliter provenientia. Set et ipsum naturale lumen habens principium sui motus a patre ut nobis appareat, ex sua bonitate venit ad communicandam nobis suam cognitionem et participationem. Rursus, sicut vivifica virtus ita se nos adimplet ut ab infimis separatos suscitet ad sui desiderium et cognitionem, et per mentis abstractionem nos a nobis ipsis avertit, et convertit ad vivificativum amorem eterni patris qui dispersiones Israelis congregat, et congregatum per simplicitatis puritatem deificat. Ab ipso enim omnia sicut a proprio principio exeunt, et ad ipsum tanquam ad finem singula redeunt teste scriptura.</p>
+      	
+      	<p xml:id="phah-c1-d1e124">
+      	  <cit>
+      	    <quote source="http://scta.info/resource/pdah-c1-d1e132">Omne datum bonum, etc.</quote>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e132">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit> 
+      	  In isto capitulo Dionysius quinque facit: Primo, commendat divine fluxum bonitatis, ibi: Omne datum. Secundo, invocat Ihesum fontem totius claritatis, que, licet communicata, non amittit tamen simplicitatem proprie ydemptitatis, ibi: Igitur Ihesum invocantes, etc. Tertio, circa divinum radium nobis apparentem ostendit difficultatem diversimode varietatis, ibi: Etenim neque, etc. Quarto, subiungit exempla huiusmodi veritatis, ibi: Quoniam neque possibile, etc. Quinto, determinat ex tali celestium mentium discriptione fructum nostre utilitatis, ibi: Huius igitur gratia, etc.</p>
+      	
+      	<p xml:id="phah-c1-d1e127">Nota quod cunctus processus apparitionis luminis mote a patre appellatur hic divina illuminatio vel divina cognitionis infusio, que a pluribus, in verbis istis, conmendatur, videlicet ab origine, ibi: a patre et ideo est affectiva erga Deum; unde in Jo.: Nemo venit ad me nisi pater meus traxerit eum; a motu, ibi: mote, quia exercitativa. Sap. 7, 24: Omnibus mobilibus mobilior est sapientia; a splendore, quia illuminativa, ibi: luminis. Isai. LX.: Surge, illuminare Ierusalem, quia venit lumen tuum; ab occursu, quia letificativa, ibi: apparitionis. Sap. 6: Occurrit illis hylariter; a processu, quia communicativa, ibi processus. Sap. Communicabit mecum de bonis suis; a descensu, quia visitativa, ibi: ad nos bonitatis dono veniens. Lc. 2: Visitavit nos oriens ex alto; ab effectu, quia unitiva, ibi: rursus sicut unum faciens virtus. Quia sursumactiva, ibi: suscitative. Quia repletiva, ibi: nos adimplet. Quia conversiva, ibi: convertit ad cognoscendum patrem unum. Quia simplificativa et deificativa, ibi: ad deificam simplicitatem. Nam quo mens est purior vel simplicior, eo deificabilior.</p>
+      	<p xml:id="phah-c1-d1e130">Conmendat autem fluxum divine bonitatis dupliciter:</p>
+      	<p xml:id="phah-c1-d1e133">Primo in genere:
+      	quia videlicet in homine iustitiam incipit, ibi: Omne datum bonum, idest iustitie inchoativum quia in nobis iustitiam perficit, ibi: Et omne donum perfectum, idest iustitie perfectivum</p>
+      	<p xml:id="phah-c1-d1e136">Secundo in specie conmendat fluxum bonitatis a tribus:
+      	Primo ab ortu nobilissimo, ibi: Set et cunctus a patre moto luminis apparitionis processus etc. Secundo ab affectu dulcissimo, ibi: Ad nos bonitatis dono veniens.
+      	Tertio ab effectu efficacissimo, ibi: Rursus sicut unum faciens virtus, etc.</p>
+      	<p xml:id="phah-c1-d1e139">Nota que effectus fluxus divine bonitatis sunt quattuor:
+      	Primus est unitio ad virtuositatem, ibi: Sicut unum faciens virtus.
+      	Secundus est suscitatio ad sacietatem, ibi, suscitative nos adimplet. Quod fit:
+      	per orationem
+      	per lectionem
+      	per dilectionem
+      	per contemplationem
+      	Tertius est conversio ad unitatem, ibi: Convertit ad congregantis patris unitatem.
+      	Quartus est deificatio ad simplicitatem, ibi: Et deificam simplicitatem.</p>
+      	
+      	<!-- text of Dionysius: Igitur Ihesum invocantes quod est paternum lumen, quod est quod verum est quod illuminat omnem hominem venientem in hunc mundum, per quem ad principem luminis patrem adductionem habuimus, ad sanctissimorum eloquiorum a patribus traditas illuminationes, sicut possibile est, respiciamus, et ab ipsis significative nobis et sursum active manifestas celestium mentium ierarchias, sicut potentes sumus, inspiciamus. Et principalem et superprincipalem thearchici patris luminis donationem que angelorum nobis informativis signis manifestat beatissimas ierarchias, immaterialibus et non trementibus mentis oculis intus suscipientes, rursus ex ipsa ad simplicem ipsius suscitemur radium. Etenim non ipsa aliquando a propria singulari unitate relinquitur sed ad sursumactionem et unificam provisorum coniunctionem, ut decet, bonam multiplicata et procedens, manet intra se ipsam fixe in inmobili ydemptitate singulariter fixa, et ad ipsam, sicut fas est, respicientes, iuxta proportionem suam extendit et unum facit secundum simplificativam ipsius unitionem. -->
+      	
+      	<p xml:id="phah-c1-d1e145">
+      	  <cit>
+      	    <ref target="http://scta.info/resource/pdah-c1-d1e135"><quote>Igitur Ihesum invocantes</quote>, etc. usque ad illud: <quote>Etenim neque</quote>, etc.</ref>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e135">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit> 
+      	  talis est sensus: Cum a tam vivifico lumine simus deificandi, castissimis orationitus Ihesus a nobis est invocandus, qui est verum lumen patris, vel qui eterni luminis habet essentialitatem et veritatem aut essentialem veritatem vel veram essentialitatem. Cuius veritas in hoc monstratur, quia per ipsum omnis veniens in hunc mundum lumine rationis vel fidei illustratur, per cuius manuductionem accessum habemus ad patrem, qui est principalis omnis luminis fons et origo naturalis. Ab ipso igitur illuminati inspiciamus mentis oculis, secundum posse nostrum, sanctarum scripturarum sursumactivas illuminationes a sanctis patribus nobis traditas. Postea contemplemus iuxta quod possumus angelicas Ierarchias manifestatas nobis ab ipsis illuminationibus signis anagogicis. Et sic mentalibus oculis illustratione et exercitatione roboratis intra nos suscipiamus principalem, immo superprincipalem, Dei patris luminis infusionem qui per formalia signa scripturarum manifestat nobis beatissimas Ierarchias angelorum. Et demum ex illa luminis participatione suscitemur ad unitive contemplandum simplicem ipsius patris radium, idest verbum sapientiae quod ex ipso patre radiat eternaliter. Illa enim luminis radiatio, quamvis se varie multis infundat, nunquam tamen propria et singulari unitate privatur. Set ad sursumagendum et unitive coniungendum electos, iuxta quod decet suam bonitatem, multis modis se conmunicat; nichilominus tamen intra se ipsam inmobili ydemptitate singulariter stabilitur. Illos autem qui ad ipsam per affectum et mentis respectum convertuntur, secundum ipsorum capacitatem sursum elevat, et ad invicem unificat secundum virtutem proprie unitionis, que in aliis effectiva est simplificationis</p>
+      	 
+      	<p xml:id="phah-c1-d1e148">
+      	  <cit>
+      	    <quote source="http://scta.info/resource/pdah-c1-d1e135">Igitur Ihesum invocantes</quote>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e135">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit>: 
+      	  Conmendatur hic Ihesus a quinque:
+         	Primo a paternali processione, ibi: qui est paternum lumen.
+         	Secundo ab eternali substantificatione, ibi: quod est.
+         	Tertio ab ineffabili cognitione, ibi: quod verum est.
+         	Quarto a conmuni omnium illuminatione: quod illuminat omnem hominem, etc.
+         	Quinto a ad fontem luminis perductione, ibi: Per quem ad principem luminis, etc.
+      	</p>
+      	
+      	<!-- dionysius textEtenim neque possibile est aliter nobis supersplendere thearchicum radium nisi varietate sanctorum velaminum sursumactive circumvelatum et hiis que secundum nos providentia paterna connaturaliter et familiariter apparatum. Quapropter et sanctissimam nostram Ierarchiam perfectionis principis sancta positio celestium Ierarchiarum supermundana inmitatione dignata et dictas inmateriales Ierarchias materialibus figuris et formativis compositionibus varians tradidit, ut, iuxta proportionem nostri ipsorum, a sanctissimis formationibus ad simplices et non formabiles reducamur sursumactiones et assimilationes. -->
+      	<p xml:id="phah-c1-d1e153">
+      	  <cit>
+      	    <ref target="http://scta.info/resource/pdah-c1-d1e138"><quote>Etenim neque</quote>, etc. usque ad illud: <quote>Quoniam neque</quote>, etc.</ref>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e138">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit> 
+      	  talis est sensus: Non est possibile in hac vita aliter nobis supersplendere divinum et principalem radium, nisi sit circumvelatus variis velaminibus sensibilium formarum, secundum quod congruit et expedit nostre sursumactioni, per paternam providentiam familiariter coaptatus, maxime ex hiis que a nobis naturaliter cognoscuntur. Quapropter sancta ordinatio Dei, qui est principium nostre perfectionis, dignata est facere nostram sanctissimam Ierarchiam supermundane imitatricem angelicarum Ierarchiarum. Et ipsas angelicas Ierarchias, in se immateriales, in sacris scripturis designavit variis materialibus figuris et formis compositis, ut nos, iuxta singulorum capacitatem, per sanctas significationes formarum sensibilium reducamur ad contemplationem simplicium et non formabilium et semper similiter se habentium supernarum virtutum, sursumacti et assimilati ad ipsas.</p>
+      	
+        <p xml:id="phah-c1-d1e156">
+          <cit>
+            <quote source="http://scta.info/resource/pdah-c1-d1e138">Thearchicum radium</quote>
+            <bibl><ref target="http://scta.info/resource/pdah-c1-d1e138">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+          </cit>. 
+          Nota quod thearchicus radius est splendidus divinae sapientiae intellectus, qui revelate a celestibus mentibus contemplatur, set velate a nostra ratione, conspicitur. Mens enim nostra materiali corpori unita ad immaterialia contemplanda non nisi mediantibus materialibus adminiculis elevatur. Et ideo radius sapientiae sub velaminibus rerum nobis familiarium est occultatus a divina bonitate, ut per ipsarum collationem et inspectionem, citius a nobis sit cognitus. Noli igitur timere. Noli diffidere de profectu sapientie. Quoniam si eius radius tibi circumvelatus apparet, set est tibi familiaris fructus utpote tuis armis amictus. Quere igitur ipsum sub illis et tibi se denudabit. Investiga illum et tuis mentalibus oculis radiabit. Non enim tibi apparet velatus, ut a te sicut alienus non videatur, set ut a te sicut tuus et tuis circumtectus velaminibus diligentius et familiarius ac dulcius exquiratur.
+      	
+      	<!-- dionysius text: Quoniam neque possibile est nostre menti ad immaterialem illam sursum excitari celestium Ierarchiarum et inmitationem et
+      	contemplationem, nisi secundum se materiali manuductione utatur, apparentes quidem pulchritudines, non apparentis decoris, imagines reputans; et sensibiles bonos odores, expressiones intelligilis distributionis et immaterialis luminis donationis imagines materialia lumina et secundum mentem contemplative adimpletionis distributivas et sanctas disciplinas; et convenientis ad divina et ordinati habitus ornatuum, qui sunt ordinationes et Ihesu participationis divinissime eucharistie assumptionem et quecumque alia celestibus quidem substantiis supermundane, nobis autem significative, tradita sunt. --></p>
+      	
+      	<p xml:id="phah-c1-d1e160">
+      	  <cit>
+      	    <ref target="http://scta.info/resource/pdah-c1-d1e142"><quote>Quoniam neque possibile est</quote>, etc., usque ad illud: <quote>Huius igitur gratia</quote>, etc.</ref>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e142">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit>, 
+      	  talis est sensus: Facultatem non habet nostra mens sursum excitari ad illam inmaterialem imitationem et contemplationem celestium Ierarchiarum, nisi ipsa mens nostra secundum conditionem presentis cecitatis utatur manuductione signorum materialium, reputando quadam intima extimatione sensibiles pulchritudines esse ymagines invisibilis pulchritudinis; et sensibiles et gratos odores esse distributionis odoris insensibilis expressiones; et materialia lumina esse ymagines intelligibilis luminis; et cognitionem activam et intelligentiam sacrarum scripturarum esse ymaginem comprehensive contemplationis que mentem satiat iuxta illud: Satiabor cum apparuerit gloria tua; et reputando ordinationes congregationum sensibilium ordinate dispositarum esse ymagines ordinationum et habituum qui sunt in celestibus ordinibus ad Dei imitationem ordinatis; et assumptionem divinissime eucharistie in vita ista esse ymaginem plene participationis Ihesu qui percipitur in patria; et similiter reputando de quibuslibet aliis que celestibus quidem substantiis supermundane conveniunt, nobis autem sub figuris sensibilibus et significativis in scripturis traduntur.</p>
+      	
+        <p xml:id="phah-c1-d1e164">
+          <cit>
+            <quote source="http://scta.info/resource/pdah-c1-d1e142">Quoniam neque possibile.</quote>
+            <bibl><ref target="http://scta.info/resource/pdah-c1-d1e142">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+          </cit> 
+          Nota ibi quod cum homo compositus sit ex anima et corpore, cum anima sit invisibilis et corpus visibile, prius ei nota sunt que visibilia sunt quam que sunt invisibilia, quia magis ei sunt familiaria. Unde cum secundum Apostolum prius sit quod animale est, deinde quod spiritale, et spiritualia inter materialia lateant, prius oportet animum inducere ad cognitionem invisibilium ut utatur materialium manuductione quam immediata ipsorum invisibilium perfruatur contemplatione, ut verbi gratia: Si quis autem non apparentem pulchritudinem velit cordi ostendere, cogitet quia qualis est materialis substantia in mundo, talis est radius sapientie in animo. Et qualis est sapientia in animo, talis et ultra quam dici potest splendidius, est Deus in celo empyreo vel etiam in se ipso. Vides ergo primum. Ex primo cogita secundum. Ex secundo concipe tertium.</p>
+      	
+      	<!-- dionysius text: Huius igitur gratia nostre secundum proportionem deificationis benignus perfectionis principatus, et celestes Ierarchias nobis manifestans, et cooperatricem ipsarum faciens nostram Ierarchiam, secundum virtutem nostram assimilatione deiformis ipsarum sanctificationis sensibilibus ymaginibus supercelestes descripsit mentes in sancte scriptis eloquiorum compositionibus, quatenus nos agat per sensibilia ad intelligibilia et ex sancte formatis signis ad simplices celestitium Ierarchiarum summitates. -->
+      	
+      	<p xml:id="phah-c1-d1e169">
+      	  <cit>
+      	    <ref target="http://scta.info/resource/pdah-c1-d1e145"><quote>Huius igitur gratia</quote> etc. usque in finem capituli</ref>
+      	    <bibl><ref target="http://scta.info/resource/pdah-c1-d1e145">Dionysius, Angelica Hiera., c. 1</ref></bibl>
+      	  </cit> 
+      	  talis est sensus: Ut hanc Dei assimilationem de qua diximus, secundum variam mortalium capacitatem obtineamus, ideo benignus princeps totius perfectionis manifestans nobis celestes Ierarchias et faciens nostram Ierarchiam, secundum nostram possibilitatem, cooperatricem ipsarum per assimilationem sanctitatis earum qua Deo conformantur, descripsit mentes supercelestes sensibilibus ymaginibus in formalibus compositionibus sacre scripture, quatenus nos per sensibilia inducat ad cognitionem intelligibilium; et ex signis catholice descriptis ad contemplandum et imitandum summam simplicitatem et simplicem summitatem celestium Ierarchiarum.</p>
+      	
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput quintum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation</resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c5">
+                <head xml:id="phah-c5-Hd1e110">Angelica Hierarchia, Caput quintum</head>
+                                
+                <!-- text of dionysius being commented on: Quod omnes celestes substantie communiter angeli dicuntur. -->
+                <p xml:id="phah-c5-d1e115">Titulus huius capituli est quod omnes celestes substantie communiter angeli vocantur. Omnes enim superiores ordines minoribus fiunt celestium distributionum manifestatores. Qui vero ultimi sunt in ordinibus divina occulta revelant hominibus. Unde cum omnes generaliter sint perceptores bonorum affluentissimi et benignissimi distributores singulariter omnes debent dici angeli vel annuntiatores. Qui enim bonum donum dat, bonum nuntium portat. Angeli autem divina lumina inferioribus dant, dum eadem illis communicant. Et quia in illa comunicatione radiorum est aliqua intelligentia secretorum, ideo ipsorum communicatio quedam merito dici potest enuntiatio.</p>
+                
+                <!-- text of dionysius being commented on: Hec Igitur est, secundum nos, causa angelice in eloquiis nominationis. Scrutari autem, sicut reor, convenit propter quam causam theologi omnes quidem celestes substantias angelos vocant. Ceterum ad manifestationem venientes, supermundanorum ipsorum ornatuum ordinem angelicum proprie nominant completive terminantem divinos et celestes ordines. Ante hunc autem superposite ordinant archangelos ornatus et principatus et potestates et virtutes et quascumque alias supergressas substantias eloquiorum sciunt manifestative traditiones. Dicimus autem quod secundum sanctum ornatum ordines quidem supergressi habent et subiectorum ornatuum et illuminationes et virtutes, non participes autem superpositorum sunt postremi. -->
+                
+                <p xml:id="phah-c5-d1e120">Hec igitur, etc. usque ad illud: Igitur sanctissimos, etc., talis est sensus: Cum inter novem ordines animorum celestium ultimus specialiter dicatur ordo angelorum, et illi ordini presint archangeli, principatus, potestates, virtutes et ceteri ordines, queritur qua ratione in scripturis cuiuslibet ordinis persone indifferenter dicantur angeli. Respondetur quod omnium inferiorum ordinum illuminationes et virtutes plenius illis habent ordines superiores. Inferiores vero non habent illuminationes et virtutes in ea plenitudine, in qua habent superiores. Unde cum nomina ordinum singulorum designent speciales ipsorum gratias, merito superioribus possunt nomina inferiorum attribui, tanquam illuminationes ipsorum, a quibus nomina imponuntur, plenius habentibus, sed non e converso.</p>
+                
+                <!--text of dionysius being commented on: Igitur sanctissimos quidem supremarum substantiarum ordines et angelos vocant theologi. Etenim sunt manifestativi et ipsi thearchice illuminationis. Ordinem autem celestium mentium ultimum non habent rationem principatus aut thronos aut seraphin nominare. Neque enim est in participatione supremarum virtutum. Sed, sicut ipsa nostros divinos Ierarchas sursumagit ad cognitos sibi thearchie splendores, ita et ante ipsam substantiarum sanctissime virtutes sursumactive ad divinum sunt adimplentes angelicas Ierarchias. Nisi forsitan et hoc aliquis dicat communes esse omnes angelicas nominationes secundum omnium celestium virtutum ad deiforme, et ex Deo luminis donationem subiectam et prehabentem communionem. Sed, ut magis sermo nobis bene discretus sit, consideremus sancte in eloquiis manifestas, sanctas et convenientes proprietates uniuscuiusque celestis ornatus. -->
+                
+                <p xml:id="phah-c5-d1e126">Igitur sanctisimos, etc. usque in finem capituli talis est sensus: Quia omnes spiritus celestes sunt divine distributionis annuntiativi, ideo divini theologi spiritus supremos idest seraphin vocant angelos, idest nuntios, quia ipsi sunt illuminationis divine manifestativi. Nec eadem ratio requirit ut ultimi ordinis substantie dicantur principatus aut throni aut seraphin, quia non equaliter participant, ut illi, divinis illuminationibus. Sed sicut angeli infimi ordinis sanctos ierarchas infime Ierarchie sursumagunt ad splendores sibi sapientie cognatos, ita ordines superiores ordinem angelicum, qui ultimus est in ordinibus celestibus, sursumagunt ad divinam cognitionem, quamvis dici possit quod angelica nominatio communis est omnibus celestibus animis, quia unum lumen divinum quod per eos manifestatur, omnes communicant secundum magis et minus. Sed, ut horum clarior sit doctrina, consideremus singulorum ordinum vel Ierarchiarum proprietates iuxta testimonia scripturarum.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput duodecimum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c12">
+        <head xml:id="phah-c12-Hd1e110">Angelica Hierarchia, Caput duodecimum</head>
+        
+        <!--Quare hominum ierarche angeli vocantur.-->
+        
+        <p xml:id="phah-c12-d1e115">Titulus huius capituli est quare hominum ierarche angeli vocantur. Sicut enim angelorum officium est purgare, illuminare et perficere, ita episcopus sive ierarcha ad similitudinem angelorum purgat, dum baptizat non auctoritate sed ministerio; illuminat vero, dum predicat; perficit, dum ad Deum subvehit. Vel purgat, dum cooperante Dei gratia movet ad conpunctionem; illuminat, dum elevat ad Dei cognitionem; perficit vero, dum informat ad piam actionem et extollit ad celestium contemplationem. Ille tamen vere perfectus est, qui et in opere est pius vel virtuosus et in contemplatione purus vel affectuosus. Dicitur etiam ierarcha angelus, quia divine voluntatis est enuntiativus.</p>
+        
+        <!--Queritur autem et hoc intelligibilia eloquia videndi ab amatoribus. Si enim non apta participare supremis totalitatibus sunt postrema, propter quam causam noster ierarcha angelus Dei omnitenentis ab eloquiis nominatus est? Est autem non contrarius sermo, sicut arbitror, prediffinitis. Dicimus enim quod totalem et superpositam divinorum ornatuum virtutem non habent postremi. Etenim particulari et iuxta proportionem existente participant secundum unam universorum convenientem et coniunctam communionem et ordinationem, sicut cherubin sanctorum ordo participat sapientia et cognitione altiore. Illarum autem, que post ipsos sunt, substantiarum ornatus participant quidem et ipsi sapientia et cognitione, particulari autem sicut tantum ad illos et subiecta. Et totaliter quidem in participatione sapientie esse et cognitionis commune est omnibus deiformibus intellectualium. Continue autem et primo et secundario et subiecte non est commune sed sicut unicuique a propria proportione diffinitum est.-->
+        
+        <p xml:id="phah-c12-d1e120">Queritur autem, etc. usque ad illud: Hoc autem, etc. talis est sensus: Querunt qui sacras scripturas intelligere desiderant: quare noster ierarcha dicitur angelus domini exercituum, ut habetur in Malach., cum supradictum sit quod inferiores non participant illuminationibus superiorum in eadem plenitudine qua et illi. Ad quod respondemus quod non est contrarium supradictis. Inferiores enim, licet non in eadem plenitudine, tamen idem lumen participant alii sublimius alii inferius. Unde et ab eodem possunt denominari. Verbi gratia, ordo cherubin participat sapientia et cognitione Dei sublimius quam ordines inferiores. Ordines autem inferiores omnes participant sapientia et cognitione, ita quod inferiores semper particulariter respectu superiorum. Commune est enim omnibus mentibus deiformibus participare simpliciter sapientia et cognitione. Sed participare in gradu primi ordinis vel in gradu secundi aut cuiuslibet inferioris non est omnibus commune. Sed singuli participant secundum gradus proprios.</p> 
+        
+        <!--Hoc autem et de divinis mentibus aliquis sine delicto diffiniat. Etenim sicut prime habundanter habent subiectarum sanctos decentes proprietates, ita habent postreme priorum, non quidem similiter, sed subiecte. Nichil igitur inconveniens, ut reor, et nostrum ierarcham angelum theologia vocat qui secundum virtutem propriam participat angelorum in prophetica proprietate, et ad manifestativam ipsorum similitudinem, sicut est possibile hominibus, extenditur. Invenies autem quod et deos theologia vocat et celestes et super nos substantias et apud nos Dei amicissimos et sanctos viros, quamvis thearchico occulto supersubstantialiter ab universis segregato et totaliter supercollocato. Et cum nichil existentium proprie et totaliter ipsi conparabile valeat nominari. Ceterum quecumque et intellectualium et rationabilium ad unitionem ipsius secundum virtutem totaliter sunt conversa, et ad divinas ipsius illuminationes, sicut est possibile, incomprehensibiliter extenduntur secundum virtutem, si fas est dicere, Dei inmitatione et divina equivocatione digna sunt habita.-->
+        
+        <p xml:id="phah-c12-d1e126">Hoc autem, etc. usque in finem capituli talis est sensus: Quod de ordinibus diximus, hoc et de omnibus mentibus recte diffinitur. Sicut enim superiores mentes habent virtutes et scientias inferiorum habundantius inferioribus, sic inferiores participant virtutibus et scientiis superiorum, non equaliter illis sed inferius. Non ergo inconvenienter ierarcha noster in sacra scriptura vocatur angelus qui et ipse secundum suam virtutem participat annuntiativa proprietate angelorum et ad imitationem manifestationis angelice docet homines divina et celestia. Etiam invenitur in sacris scripturis quod sacra scriptura tam celestes virtutes quam precipue sanctitatis et excellentie viros vocare deos, quamvis divina substantia secundum se ab hominibus et omnium communione supersubstantialiter separetur et elevetur, et omnino nichil existentium aliquo modo sit ei comparabile. Verumptamen omnes celestes mentes et homines, qui ad ipsius imitationem secundum uniuscuiusque virtutem omnino convertuntur et secundum ipsorum possibilitatem ad divinas ipsius illuminationes inconprehensibiliter extenduntur, omnes, inquam, iuxta singulorum capacitatem, si licet dicere, digni habentur et Dei imitatione et Dei appellatione vel equivocatione, dum videlicet creatura et creator deus dicatur simili nomine sed dissimili ratione. Homo enim deus dicitur gratia; Deus vero natura. Magna tamen est dignatio, quando creature et creatoris in uno nomine est communicatio.</p>
+        
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

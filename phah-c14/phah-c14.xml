@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput decimum quartum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c14">
+        <head xml:id="phah-c14-Hd1e110">Angelica Hierarchia, Caput decimum quartum</head>
+        
+        <!--Quid significat traditus angelicus numerus-->
+        
+        <p xml:id="phah-c14-d1e115">Titulus autem huius capituli est quid significat traditus angelicus numerus. Ut enim plenum esset gaudium creature rationalis, ordinavit ab eterno divina providentia, ut, ad fruendum sue dulcedinis vel beatitudinis ineffabilem magnitudinem, innumerabilem crearet fruentium vel participantium multitudinem. Si enim sine socio nulla iocunda est rei possessio, multo fortius, ut possessio summi boni foret iocundissima, creari debuit a divina bonitate creature rationalis multitudo innumerabilissima. Ideo autem divina sapientia ipsum suum numerum voluit angelos latere, ut ex inconprehensibili numerositate fruentium et rei fruite maius gaudium possent habere.</p>
+        
+        <!--Et hoc autem dignum, ut arbitror, intellectuali principatu, quod eloquiorum de angelis traditio, milies mille esse dicit et decies milies decem millia, apud nos summos numerorum in se ipsos revolvens et multiplicans et per istos manifeste significans nobis et innumerabiles celestium substantiarum ordinationes. Multi enim sunt beati exercitus supermundanarum mentium, infirmam et constrictam excedentes nostrorum materialium numerorum conmensurationem et a solo cognitive diffiniti, qui secundum ipsos est supermundano et celesti intellectu et scientia ditissime ipsis data a thearchica infinite cognitionis sapientificatione, omnium simul existentium supersubstantiali existente principio et causa substantifica et contentiva virtute et conprehensiva terminatione.-->
+        
+        <p xml:id="phah-c14-d1e120">Et hoc autem etc. usque in finem capituli talis est sensus: Congruit etiam angelico principatui quod legitur in Daniele: Milia millum ministrabant ei et decies centena milia assistebant ei, ubi maximus simplex numerus, idest millenarius in se revolvitur et multiplicatur, per quod manifeste significatur quod celestes substantie nobis sunt innumerabiles. Multe siquidem sunt beate mentes celestes et infimam et constrictam mensuram nostrorum materialium numerorum excedunt. Et a solo celesti intellectu et scientia et cognitione diffiniuntur sibi datis a divina scientificatione infinite cognitionis, que est supersubstantiale principium et substantificativa causa et virtus contentiva et terminatio conprehensiva omnium existentium.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput octavum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c8">
+        <head xml:id="phah-c8-Hd1e110">Angelica Hierarchia, Caput octavum</head>
+        <!--De dominationibus et virtutibus et potestatibus et de media eorum Ierarchia.-->
+        
+        <p xml:id="phah-c8-d1e115">Titulus huius capituli est de dominationibus et virtutibus et potestatibus et de media ipsorum Ierarchia. Ad dominationes autem pertinet docere regimina, ad virtutes vero facere miracula, ad potestates autem arcere demonia. Postquam enim animus celestis divino amore inflammatus et radianti Dei cognitione illuminatus ac divina requietione dignus factus, nichil aliud ei restat nisi ut sit aliis prelatus. Que docet nomen dominationum, que nec per servitutem alicui dissimilitudini se subiciunt, nec per timorem alicui tyrannidi se supponunt sed semper in divinam libertatem et maturitatem ac sanctam severitatem se erigunt. Ad statum autem prelationis sequitur status divine operationis, qui est in virtutibus. Que docent facere miracula, idest excellentia opera, ut videlicet statui perfectionis respondeat opus excepte actionis. Quod invenitur in David, qui et statum habebat regiminis dignissimi et opus fortitudinis admirabilissimum, unde et David manu fortis interpretatur. Qui ergo in statu habet dignitatem et in opere strenuitatam, nichil aliud ei deest, quam in iussu habeat equitatem. Quod monstratur in potestatibus, que arcent demonia, quia per iussum prohibent omnia inconvenientia et malignantia. Iuxta illud: <quote xml:id="phah-c8-Qd1e117">Qui dissipat consilia malignantium ne possint implere manus eorum quod ceperant</quote>.</p>
+        
+        <!--Transeundum autem nunc est ad medium celestium mentium ornatum, dominationes illas supermundanis oculis, sicut est possibile, inspicientibus, et vere potentes visiones divinarum potestatum et virtutum. Etenim unaqueque supersubstantiarum nominatio Dei inmitativas ipsarum significat deiformes proprietates. Igitur sanctarum quidem dominationum manifestativam nominationem arbitror monstrare non servilem quandam et ab omni pedestri subiectione liberam sursumactionem nulla tyrannicarum dissimilitudinum, nullo modo universaliter inclinatam, ipsam, ut decet, liberam sicut duram severam dominationem super omnem minoraturam servitutem positam, irremisibilem ad subiectionem omnem, segregatam ab universa dissimilitudine veram dominationem et dominationis principatum indesinenter desiderantem, et ad ipsius propriam comparabilitatem, sicut est possibile, et ad se ipsam et ea que sunt post ipsam, boniformiter formantem, ad nullum vane apparentium sed aliquid proprie existens totaliter conversam et deiformitate principis dominationis semper participante secundum quod est ipsi possibile.-->
+        
+        <p xml:id="phah-c8-d1e123">Transeundum autem, etc. usque ad illud: Sanctarum autem, etc. talis est sensus: Post primam Ierarchiam tractandum est de media, intellectualiter contemplando tres ordines ipsius, scilicet dominationes, virtutes et potestates. Quodlibet autem istorum trium nominum significat aliquam ipsius ordinis proprietatem, per quam ipsius ordinis substantie Deo conformantur. Nomen ergo dominationum significat substantias illius ordinis ab omni inhonesta servitute et indecenti subiectione esse liberas, et ad Deum per primam Ierarchiam sursumagi, et nulla violentia premi secundum varias huius mundi miserias, sed habere indissolubilem dominationem supereminentem omni servituti indebite, non valentem ab aliquo violenter subici, et segregate excedentem omnem mutabilitatem, eo quod vera sit illarum dominatio, et indesinenter desiderans Deum, qui est princeps dominationis, et ad ipsius similitudinem et inmitationem, secundum suam possibilitatem, et se ipsas et inferiores suas per bonas gratias et operationes informant, et toto desiderio et contemplatione, non ad ea que vane apparent, bona, sed ad vere existens bonum convertuntur, et secundum suam capacitatem conformitate Dei, qui est princeps dominationis, semper participant.</p>
+        
+        <!--Sanctarum autem virtutum virilem quandam et inconcussam fortitudinem ad omnes secundum deiforme ipsarum operationes, ad nullam susceptionem inditarum ipsi thearchicarum illuminationum debiliter infirmatam, potenter ad Dei inmitationem actam non derelinquentem ipsius timiditate deiformem motum, sed firme inspicientem ad supersubstantialem et virtutem facientem virtutem et eius ymaginem virtutiformem, secundum quod est possibile, factam, et ad ipsam quidem sicut principem virtutum fortiter conversam, ad secunda autem dono virtutis deiformiter procedentem.-->
+        
+        <p xml:id="phah-c8-d1e129">Sanctarum autem virtutum, etc. usque ad illud: Sanctarum autem, etc. talis est sensus: Nomen virtutum significat robustam quandam et inconcussam fortitudinem ad exercendas omnes operationes que suo ordini congruunt iuxta gratias et virtutes suas. Quibus illius ordinis substantie Deo conformantur, nec in aliquo debiliter infirmatam quo minus possit efficaciter suscipere quaslibet illuminationes sibi divinitus inditas, sed potenter divinas operationes secundum suam congruentiam inmitantem, nulla pusilanimitate derelinquentem motum, quo Deo conformantur, sed firmiter tendentem ad Dei virtutem, que supersubstantialis est et effectrix omnis virtutis, secundum suam possibilitatem conformantem inferiores suos virtuti divine; et fortiter conversam ad divinam virtutem que est pnncipalis virtus et ad inferiores suos procedentem distributione virtutis deiformis.</p>
+        
+        <!--Sanctarum autem potestatum coordinatam divinis dominationibus et virtutibus bene ornatam et incommixtam circa divinas susceptiones bonam ordinationem, et ordinatum supermundane et intellectualis potestatis, non tirannice ad deteriora potestativis virtutibus abutentis, sed potenter ad divina cum bona ordinatione et sursumacte et eas que sunt post ipsam, boniformiter sursumagentis et ad potestatem facientem potestatis principatum, sicut est fas, assimilate, et hunc, ut est possibile angelis, splendere facientis in bene ornatis secundum ipsum ordinibus potestative virtutis. Has habens deiformes proprietates, medius celestium mentium ornatus, purgatur quidem et illuminatur et perficitur secundum quem dictum est modum a thearchicis illuminationibus et inditis ipsi secundario per primum ierarchicum ornatum et per medium illum secunda luculentia delatis.-->
+        
+        <p xml:id="phah-c8-d1e134">Sanctarum autem, etc. usque ad illud: Igitur per alium, etc. talis est sensus: Nominatio potestatum significat ordinativam potestatem substantiarum illius ordinis, que dominationibus et virtutibus coordinantur, idest in eadem Ierarchia cum illis collocantur ad divinas susceptiones sine ulla ordinis confusione vel perturbatione et significat esse in eisdem co(or)dinationem invisibilem et supermundanam potestatis intellectualis ordinate sursumactis, non abutentibus virtute sua tyrannice ad inferiores, sed potenter simul et benigne sursumagentibus ad pleniorem Dei cognitionem, amorem et imitationem infimam Ierarchiam que continet principatus, archangelos et angelos, et ad Deum qui est princeps omnis potestatis, et causat omnem potestatem, assimilatis et facientibus Deum angelis inferioribus se resplendere, quantum ipsis angelis possibile est capere in tribus ordinibus infime Ierarchie angelice, qui a potestatibus bene ordinantur. Has habens deiformes proprietates media celestium mentium Ierarchia, ut dictum est, purgatur, illuminatur et perficitur a deitate, illuminationibus sibi secundario inditis per primam Ierarchiam et ipsa prima mediante per primam luculentiam a Deo delatis.</p>
+        
+        <!--Igitur per alium dictum ire ad alium auditum, signum faciamus a longe misse et per processum obscurate ad secundationem perfectionis. Etenim sicut sapientes circa nostras sanctas perfectiones dicunt, per se apparentes divinorum adimpletiones, eis per alias Dei inspectivas participationes esse perfectiores, ita arbitror et angelicorum ordinum inmediatam participationem, qui primo ad eum extenduntur, manifestatiorem esse per medietatem perfectis. Quapropter et a sacerdotali nostra traditione perfective et illuminative et purgative virtutes proprie mentes nominantur subiectorum, sicut per ipsas ad omnem supersubstantialem principatum sursumactarum et teletarchiarum purgationum et illuminationum et perfectionum in participatione, secundum quod est ipsis fas, factarum. Hoc enim est universaliter divino principi ordinum, ut decet Deum, decretum per prima et secunda thearchicis participare illuminationibus. Invenies autem hoc in multis locis a theologis manifestatum.-->
+        
+        <p xml:id="phah-c8-d1e139">Igitur per alium, etc. usque ad illud: Igitur quando, etc. talis est sensus: Quod una celestis mens alia superiori mediante illuminetur, exemplo scripturarum ostendimus. Sicut enim inter homines illi perfectius edocti sunt, qui salvatorem inmediate audierunt, quam qui eisdem, idest apostolis et discipulis domini mediantibus didicerunt; ita est in mentibus celestibus, quia clarius et perfectius illuminantur, qui in Deum inmediate extenduntur, quam qui eisdem mediantibus a Deo illuminantur. Unde traditio apostolorum docet quod prime intelligentie sunt et dicuntur purgative et perfective inferiorum, eo quod ipse sursumagunt inferiores ad Deum, qui est superprincipale principium omnium, et faciunt eas participes divinarum purgationum et illuminationum et perfectionum secundum singulorum capacitatem. Generaliter siquidem a Deo ordinatum est, quod per superiores inferiores participent divinis illuminationibus. Et hoc colligitur ex subiunctis exemplis scripturarum.</p>
+        
+        <!--Igitur quando divina et paterna benignitas, que Israel conversive ad sanctam ipsius salvationem castigavit, et punientibus et inhumanis gentibus ad correctionem dedit, universali provisorum ad melius traductione et a captivitate relaxavit, et ad priorem mansuete reduxit bonum affectum. Vidit theologorum unus Zacharias unum primorum, sicut arbitror, et circa Deum angelorum (commune enim est, ut dixi, omnibus angelis nominari), ab ipso Deo discentem de hoc consolatorios, ut dictum est, sermones. Alterum autem subiectorum angelorum ad obviationem primi preambulantem, sicut ad illuminationis susceptionem; postea vero ab ipso divinum consilium sicut ab ierarcha doctum et docere theologum conversum quod fructuose habitabitur Ierusalem a multitudine hominum.-->
+        
+        <p xml:id="phah-c8-d1e145">Igitur quando; etc. usque ad illud: Alius autem, etc. talis est sensus: Legitur Za. primo quod benignus Deus et pater noster, per salutarem castigationem ad se Israel convertens, promittit relaxationem captivitatis babilonice; in quo facto designatur universalis electorum correctio per mundi adversitates et ad emendatiorem vitam reductio. Ibi enim legitur quod unus angelus quem arbitror esse de primis, qui circa Deum sunt, didicit a Deo verba bona et consolatoria de restitutione captivitatis et habitatione Ierusalem. Et alius angelus ab illo tanquam ab ierarcha suo discens divinum consilium docuit Zachariam quod Ierusalem reedificaretur et a multitudine hominum habitaretur.
+        </p>
+          
+          <!--Alius autem theologorum Ezechiel, et ab ipsa, dicit hoc sanctissime decretum esse quod supervenerat cherubin supergloriosa deitate. Etenim Israel, sicut dictum est, paterna benignitas per disciplinam ad melius transducens, iustitia Deum decente, a puniendis secerni non puniendos iudicavit. Hoc docetur primo post cherubin, qui lumbum saphyro erat cinctus, qui poderem iuxta signum ierarchicum erat indutus. Reliquos autem angelos, qui secures habebant, divinus ordinum principatus precipit a priori doceri de hoc divinum iudicium. Huic enim dixit quidam, ut transiret per mediam Ierusalem et daret signum in frontes non puniendorum virorum. Aliis autem: Ite in civitatem post illum et cedite et non parcite oculis vestris. Ad omnes autem in quibus est signum ne appropinquetis.-->
+        
+        <p xml:id="phah-c8-d1e150">Alius autem, etc. usque ad illud: Quid dicat aliquis, etc. talis est sensus: Item colligitur ex scriptura Ezechielis. Cui apparuerat gloria domini super cherubin, quando, ut dictum est, paterna benignitas Dei filios Israel per disciplinam divine iustitie punitos a pena inflicta iudicavit absolvendos, deitatis sententia super hoc revelata est cherubin, et post cherubin angelo, qui iuxta significationem ierarchicorum signorum dicitur esse vestitus lineis et atramentarium scriptoris habere in lumbis. Angeli autem, qui designantur ibi per sex viros habentes in manibus vasa interitus. Per signum viri, lineis induti, a Deo docti, docentur Dei iudicium de puniendis transgressoribus et aliis salvandis, qui essent signati thau in frontibus. De eisdem dicitur Ezech. 1.º <quote xml:id="phah-c8-Qd1e152">Transite per civitatem sequentes eum et percutite. Non parcat oculus vester nec misereamini etc. Omnem autem super quem videatis thau ne occidatis</quote>.</p>
+        
+        <!--Quid dicat aliquis de angeto qui dixit Danieli: Exivit sermo? aut de ipso primo qui ignem ex medio cherubin accepit? aut, quod isto est habundantius ad bone ordinationis angelice demonstrationem, quod cherubin immittant ignem in manus sanctam stolam induti?, aut de illo qui vocavit divinissimum Gabrielem et dixit ipsi: Fac intelligere illum visionem? aut quecumque alia a senctis theologis sunt dicta de celestium Ierarchiarum deiformi bono ornatu? Ad quem Ierarchie nostre bona ordinatio est, secundum hoc quod est possibile, assimilata et angelico decore sicut ymaginibus formata et per ipsum sursumacta ad supersubstantialem universe ierarchice ordinationis principatum.-->
+        
+        <p xml:id="phah-c8-d1e158">Quid dicat etc. usque in finem capituli talis est sensus: Potest aliquis querere de angelo qui Danieli revelavit dominice incarnationis misteria. Qui dixit ei: Egressus est sermo. Ego autem veni ut indicarem tibi. Ubi innuitur quod ad alium primo egressus est sermo, qui per alium indicatur Danieli. Item legitur in Ezech. quod unus angelus sumpsit ignem de medio cherubin et quod dedit illum ignem in manus alterius angeli, qui designatur per virum indutum lineis. Ubi ostenditur quod aliquis cherub superior docuit Gabrielem et Gabriel docuit Danielem. Idem potest colligi ex aliis scripture testimoniis que tractant de deiformi bono ornatu celestium Ierarchiarum. Cui nostre Ierarchie ordinatio secundum mortalium possibilitatem assimilata et angelicum decorem in se ymaginarie representans per ipsum sursumagitur ad Deum, qui est supersubstantialis princeps universe Ierarchie.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

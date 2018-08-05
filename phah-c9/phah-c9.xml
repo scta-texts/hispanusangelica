@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput nonum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c9">
+        <head xml:id="phah-c9-Hd1e110">Angelica Hierarchia, Caput nonum</head>
+        <!--De principatibus et archangelis et angelis et de postrema ipsorum Ierarchia.-->
+        
+        <p xml:id="phah-c9-d1e115">Titulus huius capituli est de principatibus, archangelis et angelis et de postrema ipsorum Ierarchia. In hiis enim ordinibus continetur infima Ierarchia. Que videlicet in primis substantiis ipsius docet erga maiores sues reverentiam exhibere, ut per humiliationem possit Deo placere. Qui enim maiori suo non vult esse subiectus, non potest a Deo esse dilectus. Nam et pater filium suum laudavit, quando ipse filius se sub homine humiliavit. Secundus vero ordo, idest archangelorum, secretiora revelat misteria, quia ipsi maiora recipiunt lumina. Nam quanto maior est illuminatio, maior esse debet revelatio. Tertius vero, idest angelorum, docet de minoribus, quia ultimus participat illuminationibus. Hinc est quod per manus angelorum lex data esse dicitur. Quia lex apud omnes communis habetur. Et ne parvipendas hanc gratiam, scito legem tanto esse altiorem in sententia, quanto communior est in litteratura.</p>
+        
+        <!--Reliquus est nobis ad contemplationem sanctam ornatus, angelicas concludens Ierarchias, qui ex deiformibus principatibus et archangelis et angelis exornatur. Et primas quidem dicere necessarium reor, secundum quod est mihi possibile, sanctarum ipsorum nominationum manifestationes. Significat enim celestium quidem principatuum deiformiter principale et ducale in ordinatione sancta et principalibus convenientissima virtutibus et ad superprincipalem principatum et ipsas totaliter esse conversas et alias principaliter ducere, et ad illum ipsum, ut possibile est, formari, qui principatus facit principatum bono ornatu virtutum.-->
+        
+        <p xml:id="phah-c9-d1e120">Reliquus est nobis, etc. usque ad ilud: Sanctorum autem, etc. talis est sensus: Tractemus deinceps de ultima Ierarchiarum que continet principatus, archangelos et angelos. Nomen ergo principatuum significat principalitatem mentium illius ordinis respectu inferiorum, et qui ordinatione convenienti principali virtuti, quantum est in infima Ierarchia deducunt archangelos et angelos ad Deum, qui est superprincipalis princeps, et ipse ad eumdem convertuntur et quas adducunt, et se, secundum singularum capacitatem, Deo conformant, et per ornatum suarum principalium virtutum supersubstantialem divine ordinationis principatum quodam modo representant.</p>
+        
+        <!--Sanctorum autem archangelorum coordinata quidem celestibus principatibus. Est enim et ipsorum et angelorum, sicut dixi, Ierarchia una et ornatus. Sed quoniam non est Ierarchia nisi et primas habens et medias et ultimas virtutes, archangelorum sanctus ordo communicative ierarchica medietate ab extremis circasumitur. Etenim sanctissimus principatus communicat sanctis angelis. Hiis quidem, quoniam ad supersubstantialem principatum principaliter est conversus, et ad ipsum, sicut est possibile, reformatur. Et angelos unum facit secundum bene ornatos ipsius et ordinatos et invisibiles ducatus. Illis autem, quoniam et ypotethice est ordinationis thearchicas illuminationes ierarchice per primas virtutes suscipiens, et angelis ipsas boniformiter nuntians, et per angelos nobis manifestans, secundum sanctam uniuscuiusque illuminatorum divinitus proportionem. Etenim angeli, sicut prediximus, completive terminant totos celestium mentium ornatus, secundum hoc quod ultimam, sicut in celestibus substantiis habent angelicam proprietatem, et magis a nobis angeli, quam priores manifestativi propriorum proprie nominati et manifestius ipsis est Ierarchia et magis circa mundana. Etenim supremum, sicut dictum est, ornatum, sicut occulto prima ordinatione propinquantem, occultius arbitrandum est ierarchice secundum regere. Secundum autem, qui completur ex sanctis dominationibus et virtutibus et potestatibus, principatuum et archangelorum et angelorum Ierarchiam ducere. Prima quidem Ierarchia manifestius. Illam autem que est post ipsam, occultius.-->
+        
+        <p xml:id="phah-c9-d1e126">Sanctorum autem, etc. usque ad illud: Principatuum, etc. talis est sensus: Nomen archangelorum, qui cum principatibus in eadem Ierarchia ordinantur, significat eos medium ipsius Ierarchie habere ordinem, scilicet inferiorem principatibus et superiorem angelis. Iuxta quod quelibet Ierarchia habet et primas et medias et infimas virtutes. Sic ergo medius ordo archangelorum communicat utrique ordini sue Ierarchie: Ordini principatuum, quantum et ipse convertitur principaliter ad supersubstantialem principatum, Deum, et illi secundum suam possibilitatem reformatur. Et angelos inferiores simplificat ordinate invisibiliter eos reducendo ad Deum. Ordini autem angelico communicat, in quantum revelativus est celestium, divinas quidem illuminationes Ierarchie suscipiens per alias virtutes superiores se, et easdem nuntians angelis, et per angelos manifestans hominibus secundum capacitatem uniuscuiusque divinitus illuminatorum. Angeli enim, ut dictum est, completive terminant inferius omnes Ierarchias celestium mentium. Iuxta quod infima proprietas celestium ordinum eis ex nominis significatione attribuitur et illi a nobis specialiter vocantur angeli potius quam superiores. Qui tamen celestia manifestant, eo quod ipsorum principatus manifestius quantum ad nos, exercetur familiarius mundo. Ut enim dictum est, prima Ierarchia que occulto Domino pre ceteris appropinquat, occultius regit Ierarchiam secundam. Secunda vero Ierarchia manifestius regit tertiam, quam ipsa regatur a prima, sed occultius quam infima regat Ierarchiam ecclesiasticam.</p>
+        
+        <!--Principatuum vero et archangelorum et angelorum manifestativum ornatum humanis Ierarchiis per se invicem presidere, quatenus sit, secundum ordinem, ad Deum sursumactio et conversio et communio et unitio. Et quidem a Deo est omnibus Ierarchiis, ut decet bonos, inditus et communicative superveniens et cum bono ornatu sanctissimus processus. Inde theologia nostram Ierarchiam angelis attribuit principem populi Iudaici Michaelem nominans, et alios gentium aliarum. Statuit enim altissimus terminos gentium iuxta numerum angelorum Dei.-->
+        
+        <p xml:id="phah-c9-d1e131">Principatuum vero, etc. usque ad illud: Si autem aliquis, etc. talis est sensus: Infima Ierarchia, que continet principatus, archangelos et angelos, inmediate presidet ecclesiastice Ierarchie, ita tamen quod ordo principatuum, mediantibus archangelorum et angelorum; et archangelorum ordo, mediante ordine angelorum; angelorum vero ordo proprie et inmediate, ut secundum regiminum seriem ordinate fiant ad Deum sursumactio et conversio et communio et unitio. Et quidem divini luminis distributio a Deo indita est omnibus Ierarchiis angelicis et humanis, ordinatissime superveniens ad communicandum omnibus personis ierarchicis. Hinc est quod sacra scriptura ostendit nostram Ierarchiam regi ab infimo ordine, idest angelorum, dicente angelo ad Danielem. Consurget Michael princeps magnus, qui stat pro filiis populi tui, idest iudaici. Et iterum: Nemo est adiutor meus in hiis omnibus nisi Michael princeps vester. Ostendit etiam sacra scriptura aliis nationibus gentium preesse alios sanctos angelos. Unde in Deuteronomio: <quote xml:id="phah-c9-Qd1e133">Constituit terminos populorum iuxta numerum filiorum Israel</quote>, idest sanctorum angelorum.
+        </p>
+        
+        <!--Si autem aliquis dicat: et quomodo hebreorum populus sursumagebatur solus ad thearchicas illuminationes? Etiam respondendum quod non angelorum rectos principatus accusari convenit de aliarum gentium ad non existentes deos aberratione, sed ipsos illos propriis motibus ex sursumactione recta ad divinum decidentes amore sui et superbia et eorum que ipsis apparebant Deum decentia, irrationabiliter veneratione. Affirmatur autem testimonio hoc et ipse hebreorum populo pertulisse. Cognitionem enim Dei, dicit, abiecisti et post cor tuum perrexisti. Neque enim coactam habemus vitam, neque propter provisorum liberam potestatem divina lumina provisive illuminationis hebetantur, sed intellectualium visionum dissimilitudo superplenam paterne bonitatis luminis donationem, aut omnino non participabilem facit, et ad ipsarum circumformationem distribui non valentem, aut participationes facit differentes parvas aut magnas, obscuras aut claras, unius et simplicis et semper eodem modo se habentis et supersimplificati fontani radii.-->
+        
+        <p xml:id="phah-c9-d1e139">Si autem aliquis, etc. usque ad illud: Etenim, etc. talis est sensus: Si quis tamen querat, quomodo soli hebrei eo tempore per fidem illuminati sunt, ex quo alie nationes habuerunt rectores sanctos angelos, sicut et ipsi: Respondemus quod non fuit culpa vel defecfus in angelis recte gubernantibus alias nationes gentium de eo quod ipse gentes ydolum coluerint, sed in ipsis gentibus, que propriis motibus decidentes et aversi a doctrina inspiratonis angelice, qua Deum cognoscere et colere invitabantur, tum propter carnales voluptates, cum propter mentis superbiam, quam conceperant ex hiis, que recta de Deo cognoverant, ex quibus etiam ratione convincebantur quod Deus sit merito summe venerandus. Sed cum cognovissent Deum, non sicut Deum glorificaverunt, aut gratias egerunt sed evanuerunt in cogitationibus suis etc. Quod autem non angeli custodes sed ipsi ydololatre de errore suo sint accusabiles, colligitur ex eo quod ipse populus hebreorum tam ab angelis quam a lege et prophetis instructus, propria aversione aberravit. Iuxta illud Osee: Scientiam Dei repulisti etc. Et Ieremie: Abierunt in voluntatibus suis. Eodem. X. Non audiemus te sed facientes faciemus omne verbum quod egredietur de ore nostro. Item non sunt culpandi angeli custodes de humana pravitate quia non est suum cogere nos invitos ad bona; utimur enim libero arbitrio quod est simpliciter incoactum nec nostre virtutis est divinorum luminum revelationem acquirere vel extorquere. Sed unus et simplex et semper eodem mode se habens et omnem intelligibilem et creatam simplicitatem incomparabiliter excedens, fons eterne sapientie de quo Eccli. 1. Fons sapientie verbum Dei in excelsis; omnibus intellectibus superradiat; et iuxta intellectualiter videntium dissimilitudinem et varietatem, de plenitudine luminis sui singulis, aut nullam participationem sibi eos conformantem distribuit, aut participationes differentes, scilicet parvas aut magnas, obscuras aut claras, secundum quod mentes maius aut minus in fontem illum extenduntur et magis aut minus capaces illius luminis efficiuntur.
+        </p>
+        <!-- Etenim quod et aliis gentibus, ex quibus et nos respeximus, in illud ab omnibus paratum ad traditionem apertum thearchici luminis et infinitum et copiosum pelagus, non alienigene quidem presidebant dii. Unum autem omnium principium et ad hoc sursumagebant sequentes, qui secundum unamquamque gentem Ierarchiam obtinebant angeli. Melchisedech est attendendus, ierarcha existens Dei amantissimus, nequaquam non existentium sed vere existentis altissimi Dei. Etenim non simpliciter Melchisedech Deum sapientes, nec amicum Dei tantum, sed et sacerdotem Dei vocaverunt, vere ut habentibus Dei prudentiam aperte significent quod non solum ipse ad vere existentem Deum erat conversus sed et aliis sicut ierarcha ducatum prebebat ad veram et solam thearchicam reductionem.-->
+        
+        <p xml:id="phah-c9-d1e145">Etenim quod, etc. usque ad illud: Hoc autem, etc. talis est sensus: Quod non solum hebreis, sed nec aliis gentibus, ex quibus et nos sumus qui ad infinitam et copiosam divini luminis superhabundantiam tempore gratie omnibus parate expositam per fidem respeximus, non prefuerunt demones sed quod sit omnium unum principium et ad illum sursumagebant sancti angeli, singuli de singulis gentibus suo regimini commissis divinitus, eos qui ipsorum angelorum inspirationes recipiebant et sequebantur: exemplo Melchisedech colligi potest, qui fuit summus sacerdos Dei amantissimus, non alicuius ydoli, sed Dei altissimi, qui vere est. Theologi enim sapientes Dei non tantum vocant Melchisedech amicum Dei sed et sacerdotem ut vere prudentibus aperte significent quod non solum ipse ad verum Deum erat conversus, sed et aliis tanquam Ierarcha ducatum prebebat reducendis ad veram et solam principalem deitatem.</p>
+        
+        <!--Hoc autem et tue ierarchice prudentie rememorabimus quod et Pharaoni ab angelo Egyptiis presidente et babiloniorum principi proprie et omnium providentie et dominationis curativum et potestativum secundum visiones deferebatur, et gentibus illis veri Dei famulis duees erant constituti formatarum ab angelis visionum, manifestationis angelorum proximis sanctis viris Danieli et Ioseph ex Deo per angelos revelate. Unum enim est omnium principium et providentia, et nunquam arbitrandum est Iudeis quidem quasi sortis participatione principari thearchiam. Angelos autem proprie, aut equo honore, aut opposite, aut deos quosdam alios presidere aliis gentibus.-->
+        
+        <p xml:id="phah-c9-d1e150">Hoc autem, etc. usque ad illud: Sed et eloquium, etc. talis est sensus: Hoc commemoramus tibi episcopo et prudenti scienti scripturas sacras quod divina provisio, que omnibus providet, et divina potestas, que omnibus dominatur et curam habet omnium, deferebat per visiones ymaginaria[s], Pharaoni Egyptiis presidenti et principi babiloniorum per angelum sanctum sibi et regno suo presidentem, remedia quibus curaretur, et subiceretur populus divine voluntati. Unde et in Daniele dicitur: Est enim Deus in celis revelans misteria. Et famuli veri Dei, idest Ioseph et Daniel, erant a Deo constituti eisdem temporibus illis gentibus doctores et interpretes visionum ymaginariarum, formatarum in dictis principibus ab ipsis angelis et eorum regnis presidentibus, angelice annuntiationis a Deo primo principe revelate sanctis viris Ioseph et Danieli Deo proximis per medios angelos. Unum est enim omnium principium ad essendum et providentia ad gubernandum. Et nunquam arbitrandum est quod vera et principalis deitas, quasi per particularem sortem, principetur iudeis, aliis vero gentibus propria auctoritate dominentur aut angeli boni equales in suis potestatibus aut sibimet oppositi, aut demones.</p>
+        
+        <!--Sed et eloquium illud secundum hanc sanctam intentionem est accipiendum, non sicut partito Deo cum aliis diis aut angelis nostrum principatum, et ab Israel in gentis principem et gentis auctorem hereditate possesso, sed quod ipsa quidem una universorum altissimi providentia omnes homines salutarie propriorum angelorum suscitativis manuductionibus distribuit: solus autem pene preter omnes Israel ad veri Dei luminis donationem et cognitionem sit conversus. Unde theologia ipsum quidem hereditate possessum Israel, ad veri Dei famulatum manifestans, factus est pars domini, dicit. Monstrans autem et ipsum equaliter ut reliquas gentes attributum esse cuidam angelorum sanctorum, ad hoc quod per ipsum unum universorum principium cognosceret, Michaelem dixit iudeorum ducem esse populi plane nos docens unam esse totarum providentiam universam invisibilium et visibilium virtutum supersubstantialiter supercollocatam. Omnes autem secundum unamquamque gentem presidentes angelos, ad ipsam sicut proprium principium sequentes, voluntarie iuxta virtutem extendentes.-->
+        
+        <p xml:id="phah-c9-d1e155">Sed et eloquium etc. usque in finem capituli talis est sensus: Illa scriptura Deuteronomii, que dicit: <quote xml:id="phah-c9-Qd1e157">Constitui terminos populorum iuxta numerum filiorum Israel</quote>, sic est intelligenda, non quasi Deus inter se et alios deos dividat principatum hominum, sibi in propria hereditate assumendo solam gentem Israel quam ipse fecerit et rexerit, sed quod una et singulari divina universorum providentia omnes hominum nationes ad procurandam earum salutem sub singulis sanctis angelis eas ad celestia provocantibus ordinante, solus pene preter omnes nationes ante tempus incarnationis populus Israel ad cognitionem et illuminationem veri Dei conversus est. Unde et scriptura ostendens dictum populum Israel a vero Deo hereditarie possessum per fidem et specialem cultum dicit: Pars autem domini populus eius. In quo ostendit pupulum Israel, sicut et alias nationes, divinitus ordinatum esse sub quodam sancto angelo, dicendo Michaelem esse ducem populi iudaici, ut per ipsum reduceretur ad cultum unius principii universorum, plane per hoc nos docens unam esse universalem providentiam universarum invisibilium et visibilium virtutum intellectualiter supercollocatam omnibus. Omnes autem angelos sanctos, qui in singulis gentibus presunt vel president, ad ipsam tanquam ad proprium principium iuxta singulorum electorum capacitatem extendere cos, qui inspirationes suas acceptarent et inmitarentur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

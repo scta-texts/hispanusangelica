@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput decimum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c10">
+        <head xml:id="phah-c10-Hd1e110">Angelica Hierarchia, Caput decimum</head>
+        
+        <!--Repetitio et congregatio angelice bone ordinationis.-->
+        
+        <p xml:id="phah-c10-d1e115">Titulus huius capituli est repetitio et congregatio angelice bone ordinationis. Repetuntur enim brevius que dicta sunt diffusius. Et recolliguntur in uno capitulo que recitata sunt in multiloquio. Quia videlicet bona ordinatio angelorum dicitur purgari, illuminari et perfici, idest habundatiori et significatiori et vivificatiori gratia dotari. Item per primam secunda et per secundam tertia Ierarchia sursumagi et per tertiam nostram doceri, ut per tale documentum proficiat ad eternum delectamentum iuxta uniuscuiusque facultatem. Que tanto est maior in quolibet quanto maiori potitur lumine.</p>
+        
+        <!--Collectum est igitur a nobis quod dignissimus, circa Deum, mentium ornatus a teletarchica illuminatione ierarchice gubernatus, eo quod ad ipsam inmediate extenditur, occultiore et clariore thearchie luminis donatione purgatur, illuminatur et perficitur: occultiore quidem sicut intelligibiliore et magis simplificativa; clariore autem sicut prius data et prius apparente et magis tota et magis ad ipsum sicut clarum effusa. Ab isto vero rursus iuxta proportionem secundus et a secundo tertius et a tertio nostra Ierarchia secundum eandem beate ordinationis ordinati principatus legem in convenientia divina et proportione, ad universi boni ornatus superprincipale principium et terminationem, ierarchice sursumagitur. Manifestativi autem omnes sunt, et angeli ante ipsos existentium, dignissimi quidem Dei moventis; iuxta proportionem autem et reliqui a Deo motorum. Tantum enim emnium supersubstantialis convenientia uniuscuiusque et intellectualium et rationalium sanctum bonum ornatum et ordinatam sursumactionem providit quod et ipsi Ierarchiarum unicuique ordinem sanctitatem decentem posuit.-->
+        
+        <p xml:id="phah-c10-d1e120">Collectum est igitur, etc. usque ad illud: Et omnem, etc., talis est sensus: Superius diximus quod summa Ierarchia celestium mentium ab ipsa deitate gubernata, eo quod ad ipsam inmediate extenditur, occultiore et clariore principalis deitatis illuminatione purgatur, illuminatur et perficitur: occultiore quidem tanquam magis intima et magis simplificativa et unificativa; clariore autem tanquam prius emanante a claritate divina et celestibus mentibus prius apparente et magis universali et magis ad primum principium effusa. Ab hac vero prima Ierarchia sursumagitur ad Deum secunda Ierarchia secundum ipsius possibilitatem. Et a secunda tertia. Et a tertia nostra Ierarchia sursumagitur ad Deum qui est superprincipale principium et consummatio omnis Ierarchie. Et hoc secundum eandem legem quam ordinat divinus principatus in sursumactione angelica. Verumptamen iuxta quod Deum decet et nostre Ierarchie possibile est. Omnes autem celestes animi sunt manifestativi superiorum seriatim, v. gr. infimi angeli sunt manifestativi archangelorum et ordinum superiorum et sic de aliis. Item summi angeli idest seraphin sunt manifestativi ipsius deitatis que movet eos. Et cherubin sunt manifestativi ordinis seraphin et sic deinceps secundum singulorum ordinum proportionem. Et commode id possunt agere ordines singuli quia divina plenitudo, cuncta armoniace disponens, cuilibet Ierarchie vel ordini angelorum vel hominum habundanter providet et distribuit in scientiis et virtutibus. Unde quilibet ordo vel persona ierarchica sursumactionem et operationem sibi constitutam potest efficaciter perficere.</p>
+        
+        <!--Et omnem Ierarchiam videmus in primas et medias et ultimas virtutes distributam. Sed et ipsum unumquemque, ut specialiter dicatur, ornatum eiusdem divinis convenientiis discrevit. Quocirca et ipsos divinissimos seraphin theologi dicunt alterum ad alterum clamavisse, plane in hoc, sicut arbitror, monstrantes quod de divinis et rationalibus cognitionibus primi secundis distribuunt. Addam autem et hoc non inconvenienter quod et secundum se ipsam unaqueque et celestis et humana mens speciales habet primas et medias et ultimas ordinationes et virtutes addictas secundum unumquemque ierarchicarum illuminationum sursumactiones iuxta proportionem manifestatas. Secundum quas unusquisque in participatione fit secundum hoc quod ipsi est fas et possibile, supercastissime purgationis superpleni luminis preperfecte perfectionis. Etenim nichil per se perfectum aut non indigens universaliter perfectionis, nisi vere per se perfectum et preperfectum.-->
+        
+        <p xml:id="phah-c10-d1e126">Et omnem, etc. usque in finem capituli talis est sensus: Patet ex predictis quod quelibet Ierarchia distinguitur in tres ordines, scilicet primum, medium et infimum. Et preterea quilibet ordinum distinguitur in tres partes, continendo in se primas et medias et ultimas virtutes. Quod colligitur ex eo quod dicit Isaias: Unum seraphin clamasse ad alterum, ostendens plane quod ille qui clamavit, docuit eum cui clamavit. Et ita ostendit quod in eodem ordine alii aliis distribuunt divinam cognitionem, scilicet superiores inferioribus. Addam etiam ex habundanti non inconvenienter quod unaqueque mens angelica vel humana bene ordinata habet in sua singulari persona speciales primas et medias et ultimas ordinationes et virtutes addictas secundum unamquamque thearchicam personam et habet in se sursumactiones ierarchicarum illuminationum manifeste distinctas et ordinatas iuxta proportionem suarum virium naturalium, secundum quas sursumactiones unusquisque angelus vel homo ierarchicus participat, secundum propriam capacitatem, supercastissimam Dei purgationem, et superplenum eius lumen, et perfectionem ipsius, que prevenit et causat omnem creatam perfectionem. Nichil enim est quod sit per se ipsum perfectum aut quod non indigeat aliena perfectione, nisi solus Deus, qui est plenitudo universalis et habet universalem plenitudinem propria virtute et natura et auctoritate. Que omnia habet ante omnia et super omnia.
+        </p>
+        
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

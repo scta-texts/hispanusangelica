@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput sextum</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="phah-c6">
+        <head xml:id="phah-c6-Hd1e110">Angelica Hierarchia, Caput sextum</head>
+        
+        <!--Quis primus celestium substantiarum ornatus, quis medius, quis ultimus.-->
+        
+        <p xml:id="phah-c6-d1e115">Titulus huius capituli est quis primus, quis medius et quis ultimus celestium substantiarum ornatus. Hec autem distinctio prioritatis, medietatis et ultimitatis non est intelligenda secundum situationem localem, sed secundum accipiendi aptitudinem intellectualem. Unde illi spiritus in celestibus priores post Deum sunt, qui magis ad recipiendas eius influentias apti sunt. Prime autem influentie a Deo principaliter emanantes sunt dilectio, cognitio et ex utraque procedens zeli executio. Influentiam autem dilectionis recipit ordo seraphicus, et ideo super omnes Deo proximus. Influentiam vero cognitionis recipit ordo cherubin. Et ideo primo inmediatius. Influentiam vero executionis zeli divini que ex amore et cognitione procedit, recipit ordo thronorum, et ideo post amantes et cognoscentes sequuntur ipsi zeli iustitiam exequentes. Et in istis tribus influentiis ordo primus constituitur. Quarta influentia est docere regimina et facere miracula, arcere demonia et que sunt supra naturam. Et in hiis consistit secundus, idest potestates, dominationes et virtutes. Septima influentia est reverentiam docere, maxima secreta revelare et minora Dei consilia insinuare. Et hic est ultimus ordo, idest principatuum archangelorum et angelorum.</p>
+        
+        <!--Quot quidem sunt et quales supercelestium substantiarum ornatus et qualiter secundum ipsas Ierarchie perficiuntur, solum manifeste scire dico deificam ipsarum teletarchiam. Preterea et ipsos cognovisse proprias virtutes et illuminationes et ipsorum sanctam et supermundanam bonam ordinationem. Impossibile est enim nos scire supercelestium mentium misteria et sanctissimas ipsarum perfectiones nisi dicat aliquis quecumque per ipsas sicut et propria bene scientes nos thearchia erudivit. Igitur nos quidem nichil proprio motu dicemus. Quascumque autem angelicarum visionum sancti theologi contemplati sunt istas docti nos, sicut possumus, exponemus.-->
+        
+        <p xml:id="phah-c6-d1e120">Quot quidem sunt, etc. usque ad illud: Omnis theologia, etc., talis est sensus: Numerum et dignitatem et gloriam et dispositionem ierarchicam celestium substantiarum solus Deus manifeste cognoscit. Nobis autem impossibile est scire illarum substantiarum misteria et perfectiones, nisi quantum dispensatione divina ab eisdem erudimur, bene scientibus propria. Nos ergo nil de eis dicemus in hoc tractatu ex motu proprio; sed ea que contemplati sunt apostoli et discipuli et alii sancti qui scripserunt de statu angelorum, illa nos, prout possibile nobis fuerit, exponemus, secundum quod didicimus, sicut ex variis sacre scripture testimoniis colligitur.
+        </p>
+        
+        <!--Omnis theologia celestes substantias novem vocavit manifestativis nominationibus. Istas divinus noster sanctitatis perfector in tres separat trinos ornatus. Et primum quidem esse dicit circa Dei substantiam semper et attente ipsi et ante alios sine medio unitum esse traditum. Sanctissimos enim thronos et multorum oculorum et multarum alarum ordines cherubin, hebreorum voce, et seraphin nominatos secundum omnibus superpositam propinquitatem circa Deum medio collocari dicunt tradere sanctorum eloquiorum manifestationes. Trinum igitur hunc ornatum, sicut unum et coordinatum et vere primam Ierarchiam, gloriosus noster dixit dux, quia non est altera deiformior et prius operantibus divine Ierarchie illuminationibus sine medio attentior. Secundum autem esse dicit ex dominationibus et virtutibus et potestatibus. Et tertium postreme celestium Ierarchiarum et angelorum et archangelorum. et principatuum ornatum.-->
+        
+        <p xml:id="phah-c6-d1e126">
+          Omnis theologia etc. usque in finem capituli talis est sensus: Sicut docet theologia novem sunt ordines angelorum expressis nominibus designati, quos sanctus apostolus Paulus institutor noster designat in tres ternas Ierarchias. Et primam Ierarchiam dicit collocari circa Dei substantiam et attente idest cum omni affectione et pre aliis sine exceptione. Et inmediate sine aliqua interpositione Deo uniri. Et dicit ex scripturis colligi quod in hac Ierarchia collocentur principaliter et inmediate circa Deum tres ordines. Quorum ultimus dicitur throni; medius hebraice cherubin qui dicitur oculosus propter multitudinem scientie. Summus vero hebraice dicitur seraphin. Cui attribuuntur ale, quia supervolat omnibus aliis. Hanc ergo Ierarchiam hos tres ordines continentem docuit nos apostolus esse, sicut unam, idest ab aliis separatam et coordinatam, idest in se distinctam, et primam, idest merito vel dignitate aliis superpositam omnium Ierarchiarum, quia non est alia Deo conformior, et quia ipsa est inmediate vicinior illuminationibus divine Ierarchie primo emanantibus, quasi de principali fonte. Secundam Ierarchiam dicit compleri ex tribus ordinibus. Quorum primus est dominationum. Secundus virtutum. Tertius potestatum, ut patet infra. VIII. Tertiam vero et ultimam Ierarchiam, dicit continere tres ordines. Quorum primus est principatuum. Secundus archangelorum. Tertius et ultimus angelorum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

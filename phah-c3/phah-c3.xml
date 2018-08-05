@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angelica Hierarchia, Caput tertium</title>
+        <author>Petrus Hispanus</author>
+        <editor/>
+        <respStmt>
+          <name>Marco Toste</name>
+          <resp when="2006">Digital text preparation </resp>
+        </respStmt>
+        <respStmt>
+          <name>João Rebalde</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2016-07-07">July 07, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref> 
+        </authority>
+        <availability status="free">
+          <p>Public Domain</p>
+        </availability>
+        <date when="2016-07-07">July 07, 2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+        </listWit>
+        <listBibl>
+          <bibl xml:id="Alonso1957">Printed edition: Pedro Hispano, Exposição sobre os livros do Beato Dionísio Areopagita, ed. Manuel Alonso Alonso, Lisboa 1957</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-07-07" status="draft" n="0.0.0-dev">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+            <div xml:id="phah-c3">
+                <head xml:id="phah-c3-Hd1e110">Angelical Hierarchia, Caput tertium</head>
+                               
+                
+                <!-- text of dionysius being commented on: Quid est Ierarchia et que secundum Ierarchiam utilitas. -->
+                
+                <p xml:id="phah-c3-d1e115">Titulus huius capituli est quid sit Ierarchia et que ipsius utilitas. Comendatur autem hic Ierarchia a sex: Primo a sanctitate, quam habet in affectu, ibi: sancta; secundo ab ordinatione quam habet in gradu, ibi: ordinatio; tertio a scientia quam habet in intellectu, ibi: scientia; quarto ab operatione quam habet in actu, ibi: operatio; quinto ab assimilatione quam habet in habitu, ibi: ad deiformem, sicut est possibile assimilata; sexto a sursumactione quam habet in desiderio vel appetitu, ibi: ad inditas ipsi a Deo illuminationes iuxta proportionem sursumacta. — Utilitas autem Ierarchie est assimilari Deo et uniri: assimilari scilicet per refulgentiam luminis veritatis in intellectu; uniri vero per affluentiam dulcedinis divine bonitatis in affectu, ut videlicet assimilatio sit luminosa et unitio saporosa.</p>
+                
+                <!-- text of dionysius being commented on: Est quidem Ierarchia, secundum me, ordinatio sancta et scientia et operatio ad deiformem, sicut possibile est, assimilata, et ad inditas ipsi a Deo illuminationes iuxta proportionem ad Dei inmitativum sursumacta. Deo autem conveniens pulchritudo, sicut simplex, sicut bona, sicut thelearchica, munda quidem est universaliter ab omni dissimilitudine; distributiva autem proprii luminis secundum dignitatem uniuscuiusque et perfectiva in perfectione divinissima secundum perfectorum convenienter ad ipsam intransmutabilem formationem.-->
+                
+                <p xml:id="phah-c3-d1e120">Est quidem, etc. usque ad illud: Intentio igitur, talis est sensus: Secundum sensum meum, Ierarchia est sancta rationabilium personarum congregatio, per gradus et officia ordinate distincta, cum scientia et operatione sibi competentibus, ad Dei conformitatem, prout sibi possibile est, assimilata et per illuminationes sibi divinitus infusas, iuxta cuiusque capacitatem, ad Dei inmitationem sursumacta. Divina autem pulchritudo, cui assimilande sunt Ierarchie angelorum et hominum, sicut simplex et bona et principaliter consummativa, universaliter munda est ab omni re sibi indecente, et est distributiva proprii luminis, secundum capacitatem uniuscuiusque illuminatorum. Et per ipsius luminis distributionem perfectiva est ea perfectione, que perfectos maxime assimilat Deo secundum instransmutabilem ipsorum conformitatem ad Deum, divine pulchritudini coaptatam, qualis est in patria.</p>
+                
+                <!-- text of dionysius being commented on: Intentio igitur Ierarchie est ad Deum, sicut est possibile, assimilatio et unitio, ipsum habens omnis sancte et scientie et operationis ducem, et ad ipsius divinissimum decorem indeclinabiliter quidem videns, et, sicut est possibile, formata. Et ipsius chorum agentes insignia divina faciens, specula clarissima et inmaculata et susceptiva radii principis luminis et thearchici et indita quidem claritate sancte adimpleta. Hanc autem rursus copiose in ea que sequuntur cum splendore enitentia secundum thearchicas leges. Non enim fas est sanctorum perfectoribus aut sancte perfectis operari aliquid universaliter preter proprias perfectionis principis sanctas ordinationes. Sed neque existere aliter, nisi deificam ipsius claritatem desiderent, et ad ipsam, ut decet sanctos, respiciant, et reformentur secundum uniuscuiusque sanctarum mentium proportionem.-->
+             
+                <p xml:id="phah-c3-d1e126">Intentio igitur, etc. usque ad illud: Est igitur, etc., talis est sensus: Intendit Ierarchia assidua speculatione in Deum, desiderans secundum suam possibilitatem assimilari et uniri Deo, ipsum habens ducem sancte cognitionis et operationis, et indeclinabiliter aspiciens ad divinam pulchritudinem, et eam contemplando, ab ipsa tanquam pulchrifica informata, et personas in se contentas, Deum laudantes, faciens esse divina insignia et clarissima et inmaculata specula, susceptiva radii principalis et thearchici luminis, et sancte impleta claritate divina, sibi per eundem radium infusa, ita quod superiores ipsam claritatem suis inferioribus, copioso tamen splendore, influant, secundum quod eis divinitus est constitutum. Illicitum est enim superioribus qui perficiunt et inferioribus qui ab eisdem perficiuntur, aliquid operari preter quam singulis ordinatum est a Deo principe perfectionis. Si quidem necessaria est eis divine ordinationis observantia, ad hoc ut in sue felicilicitatis statu persistant, et divina claritate ipsos deificante perfruantur, et ad ipsam reformentur, iuxta cuiuslibet sanctarum mentium capacitatem: quod summe desiderant.</p>
+                
+                <!-- text of dionysius being commented on: Est igitur Ierarchiam dicens, sanctum quendam universaliter monstrat ornatum, ymaginem pulchritudinis thearchie in ordinibus et scientiis ierarchicis proprie illuminationis sancte operantem misteria, et ad proprium principium, sicut est fas, assimiltatum. Est enim unicuique Ierarchiam sortitorum perfectio, secundum propriam proportionem, ad Dei imitativum esse reductum, et quod quidem omnibus est divinius, ut eloquia dicunt, Dei cooperatorem fieri et monstrare divinam operationem in se ipso sicut est possibile, manifestatam. Sicut quoniam ordo Ierarchie est alios quidem purgari, alios quidem purgare, et hos quidem illuminari, illos autem illuminare, et hos quidem perfici, illos autem perficere unicuique Dei inmitativum convenit secundum hunc modum. Divina beatitudo, sicut in hominibus dicitur, munda quidem est ab universa dissimilitudine, plena autem lumine sempiterno, perfecta, et non indigens universe perfectionis, purgans et illuminans et perficiens; magis autem purgatio sancta et illuminatio et perfectio super purgationem et super lumen, aut perfecta, per se perfectionis principatus. Et omnis quidem Ierarchie causa, ab omni sancto secundum excessum segregata. -->
+                
+                <p xml:id="phah-c3-d1e131">Est igitur, etc. usque ad illud: Oportet igitur, etc. talis est sensus: Patet ex premissis quod nomine Ierarchie generaliter designatur sancta quedam congregatio, divinam in se representans pulchritudinem et speciales operationes prime virtuti commensuratas exercens, secundum exigentiam potestatis et scientie sui sacri principatus, et assimilata secundum suam possibilitatem ad proprium principium scilicet Deum. Unicuique enim persone Ierarchie perfectio est, ad Dei inmitationem secundum propriam congruentiam reductam esse, et fieri Dei cooperatricem, quod efficacius omnibus divinam ingignit conformitatem, et representare divinam operationem in se ipso, secundum quod sibi possibile est, manifestatam, iuxta illud Cor. Dei enim adiutores sumus. V. gr.: Ordo Ierarchie est, ut superiores purgent, illuminent et perficiant inferiores suos. Hec autem purgatio, illuminatio et perfectio activa et passiva, secundum creature possibilitatem, aliquatenus conformat Deo ierarchicas personas. Divina enim beatitudo secundum quod ab omnibus laudari potest, munda quidem est ab omni dissimilitudine eterne sue plenitudinis, cui aliquatenus assimilantur ierarchice persone, in quantum purgantur. Item. Deitas plena est sempiterno lumine, cui aliquatenus assimilantur ierarchice persone in quantum illuminantur. Est etiam perfecta ut nichil desit sue perfectioni. Cui aliquatenus assimilantur ierarchice persone, in quantum perficiuntur. Est etiam deitas purgans, illuminans et perficiens, inmo ipsa purgatio super omnem purgationem, et illuminatio super omne lumen, et perfectio super omnem perfactionem, per se perfecta, perfectionis princeps, et omnis Ierarchie causa, ab omni insuper sancto secundum excessum segregata. Cui aliquatenus assimilantur ierarchice persone, in quantum inferiores suos purgant, illuminant et perficiunt, et habent super ipso precipuam purgationem et illuminationem et perfectionem, nec quicquam luminis ab eis percipiunt sed de sua plenitudine eis influunt, et sublimiter eisdem presunt.</p>
+                
+                <p xml:id="phah-c3-d1e134">Nota quod in divinis</p>
+                <p xml:id="phah-c3-d1e137">purgatio est recessus ab ignoto per fortitudinem divini amoris.</p>
+                <p xml:id="phah-c3-d1e140">illuminatio est accessus ad cognitum per virtutem divini splendoris.</p>
+                <p xml:id="phah-c3-d1e144">perfectio est unitio ad id ipsum per magnitudinem divini dulcoris.</p>
+                
+                <!-- text of dionysius being commented on: Oportet igitur, sicut extimo, purgatos quidem mundos perfici universaliter, et ab omni liberari dissimili conmixtione; illuminatos autem adimpleri divino lumine ad contemplativum habitum et virtutem in castissimis mentis oculis sursumactos; perfectos vero ex imperfecto traductos participes fieri inspectorum sanctorum perfective scientie. Purgativos autem ex habundantia purgationis aliis tradere de propria castitate. Illuminativos vero, sicut clariores mentes ad participationem luminis et traditionem familiariter se habentes et ditissime sancta adimpletos claritate secundum omne ipsorum superfusum lumen supervehere. Perfectivos autem sicut scientes perfectivam traditionem, perficere eos qui perficiuntur sanctissima doctrina per inspectorum sanctorum scientiam. Igitur unusquisque ierarchici ornatus ordo secundum propriam proportionem sursumagitur ad divinam cooperationem, illa faciens gratia et a Deo data virtute quo thearchie naturaliter et supernaturaliter insunt, et ab ipsa supersubstantialiter fiunt, et ad possibilem amantium Deum mentium inmitationem ierarchice manifestantur. -->
+                
+                <p xml:id="phah-c3-d1e149">Oportet igitur, etc. usque in finem capituli talis est sensus: Necesse est purgatos, et omnino mundos fieri et liberari ab omni non luminoso. Eos vero qui illuminati sunt divino lumine adimpleri, elevatos sive sursumactos in intellectibus et suspiriis, pure et summe divinum lumen desiderantibus, ad plenius obtinendam et firmiter possidendam divinam contemplationem. Perfectos autem oportet esse transductos ex imperfectione sive perfectionis minoritate et percipere augmentum perfective scientie, experientis gustum intime sapientie. Illos vero qui purgant, oportet inferioribus tradere de habundantia sue castioris purgationis. Illos vero qui illuminant, tanquam lumini divino familiarius coniunctos et eodem habundantius repletos, inferioribus suis, secundum ipsorum capacitatem, ipsum lumen oportet superinfluere. Illos autem qui alios perficiunt, tanquam magis expertos in traductione perfectiva, inferiores suos perficere sanctiore doctrina per experientiam internorum gustuum sapientie. Unusquisque ergo in ordine ierarchico constitutus, secundum propriam proportionem sursumagitur ad divinam cooperationem in se et operationes suas quodam modo per gratiam et virtutem divinitus sibi concessas, illa representans, que sancte trinitati naturaliter, inmo supernaturaliter insunt, et ab ipsa supersubstantialiter fiunt, videlicet pater, cum sit plenitudo essentie, vite, sapientie, bonitatis, potentie et omnino plenitudo omnis plenitudinis desiderabilis, a nullo accipiens, sed sola propria auctoritate supersubstantialiter dat filio, ipsum generando, et eandem ipse cum filio dat spiritui sancto supernaturaliter, ipsum supersubstantialiter spirando, cum in ipsa sancta trinitate non sit gradus inferior vel superior sed superioritatis et inferioritatis quoddam superintellectuale et supersubstantiale exemplar, scilicet auctoritas et superauctoritas. Que ergo in deitate sunt et fiunt supersubstantialiter, manifestantur Ierarchiis ad hoc ut sancte mentes in eis constitute, que Deum diligunt, possint aliquatenus divina cognita inmitari.</p>
+            
+            </div>
+        </body>
+    </text>
+</TEI>
